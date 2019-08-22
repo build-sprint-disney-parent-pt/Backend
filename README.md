@@ -88,3 +88,58 @@ _example:_
 ```
 
 ---
+
+### Parent Post a Request
+
+_Method URL: /comments_
+
+_HTTP method: [POST]_
+
+### Body
+
+| name      | type   | required | description |
+| --------- | ------ | -------- | ----------- |
+| username  | String | Yes      |             |
+| comment   | String | Yes      |             |
+| time      | String | Yes      |             |
+| parent_id | ID     | Yes      |             |
+
+_example:_
+
+```
+{
+  "title": "Reqesting Assistance",
+  "attraction": "Tornado Ball",
+  "children": 5,
+  "time": "10 a.m EST",
+  "parent_id": 8
+}
+```
+
+---
+
+### Parent Post a Comment
+
+_Method URL: /post_
+
+_HTTP method: [POST]_
+
+### Body
+
+| name     | type   | required | description |
+| -------- | ------ | -------- | ----------- |
+| username | String | Yes      |             |
+| comment  | String | Yes      |             |
+| post_id  | ID     | Yes      |             |
+
+_example:_
+
+```
+{
+  "username": "user",
+  "comment": "Hello, this is Tony a Cast Member",
+  "post_id": 1
+}
+```
+
+---
