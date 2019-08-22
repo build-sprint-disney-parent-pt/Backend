@@ -16,3 +16,75 @@
 - Stretch: Use a notification API like Twilio (https://www.twilio.com/) or Growl (http://growl.info/) for notifications when your request has been answered, or when new requests are posted.
 
 ---
+
+## Base URL
+
+- https://disneyparent-backend.herokuapp.com
+
+### Register a Parent
+
+_Method URL: /auth/parents/register_
+
+_HTTP method: [POST]_
+
+### Body
+
+| name        | type   | required | description    |
+| ----------- | ------ | -------- | -------------- |
+| username    | String | Yes      | Must be unique |
+| email       | String | Yes      | Must be unique |
+| password    | String | Yes      |                |
+| accountType | String | Yes      |                |
+
+_example:_
+
+```
+{
+  username: "john doe",
+  password: "password123",
+  email: "johndoe@email.com",
+  accountType: "parent"
+}
+```
+
+### Response
+
+**200**
+
+```
+{
+"username": "example",
+ "password": "example",
+ "email": "example@gmail.com", "accountType": "parent",
+}
+```
+
+---
+
+### Parent Login
+
+_Method URL: /auth/parents/login_
+
+_HTTP method: [POST]_
+
+### Body
+
+| name        | type   | required | description    |
+| ----------- | ------ | -------- | -------------- |
+| username    | String | Yes      | Must be unique |
+| email       | String | Yes      | Must be unique |
+| password    | String | Yes      |                |
+| accountType | String | Yes      |                |
+
+_example:_
+
+```
+{
+  username: "john doe",
+  password: "password123",
+  email: "johndoe@email.com",
+  accountType: "parent"
+}
+```
+
+---
