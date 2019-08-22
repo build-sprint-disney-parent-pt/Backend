@@ -91,7 +91,7 @@ _example:_
 
 ### Parent Post a Request
 
-_Method URL: /comments_
+_Method URL: /posts_
 
 _HTTP method: [POST]_
 
@@ -120,7 +120,7 @@ _example:_
 
 ### Parent Post a Comment
 
-_Method URL: /post_
+_Method URL: /comments_
 
 _HTTP method: [POST]_
 
