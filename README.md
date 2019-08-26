@@ -174,7 +174,7 @@ _Response example:_
     "email": "john123@gmail.com",
     "accountType": "parent"
   }
-  
+
 ```
 ---
 ### Get List of Posts 
@@ -214,6 +214,44 @@ _Response example:_
     "children": 5,
     "time": "May 24, 2019 at  11 AM EST",
     "parent_id": 3,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  }
+
+```
+
+---
+### Get List of Comments 
+
+
+_Method URL: /comments_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "username": "Jane",
+    "comment": "Hello I can help!",
+    "post_id": 1,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 2,
+    "username": "Bob",
+    "comment": "I can take care of them while you enjoy yourself",
+    "post_id": 2,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 3,
+    "username": "Terry",
+    "comment": "We can take turns watching each others children while so we can get on rides",
+    "post_id": 3,
     "created_at": "2019-05-21 18:03:53",
     "updated_at": "2019-05-21 18:03:53"
   }
