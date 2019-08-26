@@ -143,3 +143,37 @@ _example:_
 ```
 
 ---
+### Get List of Parents 
+
+
+_Method URL: /parents_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "username": "Alan",
+    "password": "$2a$08$wJrpp6dAMt6v.FvnoqHK7OzehioQPhsi.SA1Zx9HPlMh2uaGCm.ni",
+    "email": "123@gmail.com",
+    "accountType": "parent"
+  },
+  {
+    "id": 2,
+    "username": "John",
+    "password": "$2a$08$tTRISXNpJKv3EA4s4/Aok.H1esgDdMSUS7lrQ3/PP9Yn4Xkgtf6QO",
+    "email": "terry123@gmail.com",
+    "accountType": "parent"
+  },
+  {
+    "id": 3,
+    "username": "Terry",
+    "password": "$2a$08$of6AnGiawnkl7lVIoOeideOVD8qfBuvk4IT09gp.KgLTegAD79LBu",
+    "email": "john123@gmail.com",
+    "accountType": "parent"
+  }
+```
+
+---
