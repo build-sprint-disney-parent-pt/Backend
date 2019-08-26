@@ -174,6 +174,50 @@ _Response example:_
     "email": "john123@gmail.com",
     "accountType": "parent"
   }
+  
+```
+---
+### Get List of Posts 
+
+
+_Method URL: /posts_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "title": "Need Help!",
+    "attraction": "Space Mountain",
+    "children": 5,
+    "time": "May 22, 2019 at  9 AM EST",
+    "parent_id": 1,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 2,
+    "title": "Help Needed",
+    "attraction": "The Barnstormer",
+    "children": 5,
+    "time": "May 23, 2019 at  10:30 AM EST",
+    "parent_id": 2,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 3,
+    "title": "Take Turns?",
+    "attraction": "Seven Dwarfs Mine Train",
+    "children": 5,
+    "time": "May 24, 2019 at  11 AM EST",
+    "parent_id": 3,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  }
+
 ```
 
 ---
