@@ -143,3 +143,119 @@ _example:_
 ```
 
 ---
+### Get List of Parents 
+
+
+_Method URL: /parents_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "username": "Alan",
+    "password": "$2a$08$wJrpp6dAMt6v.FvnoqHK7OzehioQPhsi.SA1Zx9HPlMh2uaGCm.ni",
+    "email": "123@gmail.com",
+    "accountType": "parent"
+  },
+  {
+    "id": 2,
+    "username": "John",
+    "password": "$2a$08$tTRISXNpJKv3EA4s4/Aok.H1esgDdMSUS7lrQ3/PP9Yn4Xkgtf6QO",
+    "email": "terry123@gmail.com",
+    "accountType": "parent"
+  },
+  {
+    "id": 3,
+    "username": "Terry",
+    "password": "$2a$08$of6AnGiawnkl7lVIoOeideOVD8qfBuvk4IT09gp.KgLTegAD79LBu",
+    "email": "john123@gmail.com",
+    "accountType": "parent"
+  }
+
+```
+---
+### Get List of Posts 
+
+
+_Method URL: /posts_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "title": "Need Help!",
+    "attraction": "Space Mountain",
+    "children": 5,
+    "time": "May 22, 2019 at  9 AM EST",
+    "parent_id": 1,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 2,
+    "title": "Help Needed",
+    "attraction": "The Barnstormer",
+    "children": 5,
+    "time": "May 23, 2019 at  10:30 AM EST",
+    "parent_id": 2,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 3,
+    "title": "Take Turns?",
+    "attraction": "Seven Dwarfs Mine Train",
+    "children": 5,
+    "time": "May 24, 2019 at  11 AM EST",
+    "parent_id": 3,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  }
+
+```
+
+---
+### Get List of Comments 
+
+
+_Method URL: /comments_
+
+_HTTP method: [GET]_
+
+_Response example:_
+
+```
+{
+    "id": 1,
+    "username": "Jane",
+    "comment": "Hello I can help!",
+    "post_id": 1,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 2,
+    "username": "Bob",
+    "comment": "I can take care of them while you enjoy yourself",
+    "post_id": 2,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  },
+  {
+    "id": 3,
+    "username": "Terry",
+    "comment": "We can take turns watching each others children while so we can get on rides",
+    "post_id": 3,
+    "created_at": "2019-05-21 18:03:53",
+    "updated_at": "2019-05-21 18:03:53"
+  }
+
+```
+
+---
